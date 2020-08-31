@@ -1,5 +1,5 @@
 
 
 
-add_executable(k tests-main.cpp test-mem_mgr.cpp)
-target_link_libraries(k mem)
+add_executable(test tests-main.cpp test-mem_mgr.cpp)
+target_link_libraries(test mem)
