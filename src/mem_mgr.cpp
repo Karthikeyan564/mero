@@ -103,7 +103,8 @@ namespace eigwrap {
     bool mem_ptr<T>::operator ==(const T* t){
         return (t==data_ptr)?true:false;
     }
-    template class mem_ptr<int>;
+    template class mem_ptr<unsigned char>;
+    template class mem_ptr<float>;
 }
 
 

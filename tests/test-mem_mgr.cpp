@@ -7,7 +7,7 @@
 #include "../src/mem_mgr.h"
 
 TEST_CASE("Copying mem_mgr"){
-    eigwrap::mem_ptr<int> t,x,y;
+    eigwrap::mem_ptr<float> t,x,y;
     t.create_mem(10);
     REQUIRE(t.get_cnt()==1);
     x=t;
